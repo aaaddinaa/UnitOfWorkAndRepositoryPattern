@@ -1,0 +1,15 @@
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\MyWork\UnitOfWorkAndRepositoryPattern\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
