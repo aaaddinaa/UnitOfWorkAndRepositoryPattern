@@ -21,7 +21,7 @@ namespace DataAccess.Repositories
             return _context.Set<TEntity>().Find(id);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public virtual IEnumerable<TEntity> GetAll()
         {
             return _context.Set<TEntity>().ToList();
         }
@@ -34,6 +34,7 @@ namespace DataAccess.Repositories
         public void  Add(TEntity entity)
         {
             _context.Set<TEntity>().Add(entity);
+
         }
 
         public void AddRange(IEnumerable<TEntity> entities)
@@ -41,9 +42,10 @@ namespace DataAccess.Repositories
             _context.Set<TEntity>().AddRange(entities);
         }
 
-        public void Remove(TEntity entity)
-        {
+        public void Remove(TEntity  entity)
+        { 
             _context.Set<TEntity>().Remove(entity);
+
         }
 
         public void RemoveRange(IEnumerable<TEntity> entities)

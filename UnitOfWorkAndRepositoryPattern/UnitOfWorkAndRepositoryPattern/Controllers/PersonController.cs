@@ -21,17 +21,40 @@ namespace UnitOfWorkAndRepositoryPattern.Controllers
         }
 
         [HttpGet]
-        public  ActionResult<IEnumerable<Person>> GetAll()
+        public ActionResult<IEnumerable<Person>> GetAll()
         {
             return Ok(_unitOfWork.People.GetAll());
         }
 
         [HttpPost]
-        public ActionResult<IEnumerable<Person>>  Add(Person person)
+        public ActionResult<IEnumerable<Person>> Add(Person person)
         {
             _unitOfWork.People.Add(person);
             _unitOfWork.Save();
-            return Ok();
+
+            return Created($"person/{person.ID}", person);
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<Person> GetById(int id)
+        {
+            var result = _unitOfWork.People.GetById(id);
+
+            if(result != null)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest();
+        }
+
+        [HttpDelete]
+        public ActionResult<Person> Remove(Person person)
+        {
+            _unitOfWork.People.Remove(person);
+            _unitOfWork.Save();
+           return Ok();
+            
         }
 
     }
